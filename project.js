@@ -1,5 +1,4 @@
 const starButton = document.getElementById("Stars");
-const starbuttongPrompt = prompt(starButton);
 starButton.addEventListener("click", SpawnDrawTheNightSky);
 const lightSwinger = document.getElementById("light");
 lightSwinger.addEventListener("click", SpawnLightSwinger);

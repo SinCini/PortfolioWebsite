@@ -1,0 +1,47 @@
+
+*{
+    font-family: "Comic Sans MS", "Comic Sans", cursive, sans-serif;
+}
+
+.header {
+    display:flex;
+    justify-content: space-between;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#Game 
+{
+    display: flex;
+    flex-direction: column;
+    border-color: black;
+    border-style: double;
+}
+#Game button{
+    width: 200px;
+    justify-self: center;
+    align-content: center;
+    align-self: center;
+}
+.InfoDump
+{
+    border-style: double;
+    border-color: black;
+}
+
+.PicturesOfMe
+{
+    display:flex;
+    display:inline-flex;
+}
+.PicturesOfMe img 
+{
+    height: 200px;
+    width: auto;
+}
+.ArtShowcase img{
+    height:200px;
+}
+
